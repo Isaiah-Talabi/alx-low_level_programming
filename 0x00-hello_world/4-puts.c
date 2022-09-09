@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-/*
+/**
  *
- *  *main - prints the phrase "Programming is like building a multilingual puzzle"
- *
- *   
+ *  *main - entry point to print task
  *
  *    *Return: 0 after printing the function
  *
