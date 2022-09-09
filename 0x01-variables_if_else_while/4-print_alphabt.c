@@ -15,10 +15,10 @@ int main(void)
 
 	{
 	if ("ch == 'q' \n")
-	       	continue;
+		continue;
 
 		else if ("ch == 'e' \n")
-		       	continue;
+			continue;
 
 		{	putchar(ch); }
 		ch++;
