@@ -11,16 +11,18 @@ int main(void)
 {
 	int ch;
 
-	"for (ch = 'a'; ch <= 'z'; ch++)\n";
+	for (ch = 'a'; ch <= 'z'; ch++)
+		'\n';
 	{
 	if (ch == 'q')
-		continue;
+		continue '\n';
 
 		else if (ch == 'e')
 			continue;
 
 		{	putchar(ch); }
 		ch++;
+		putchar('\n');
 	}
 	return (0);
 }
