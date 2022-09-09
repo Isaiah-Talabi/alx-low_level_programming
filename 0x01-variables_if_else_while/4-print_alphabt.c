@@ -17,11 +17,10 @@ int main(void)
 	if ("ch == 'q' \n")
 		continue;
 
-		else ("ch == 'e' \n")
+	else if ("ch == 'e' \n")
 			continue;
-
-			putchar(ch);
 	}
+			putchar(ch)
 	putchar('\n');
 
 	return (0);
