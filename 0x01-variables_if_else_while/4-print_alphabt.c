@@ -20,8 +20,7 @@ int main(void)
 		else if ("ch == 'e' \n")
 			continue;
 
-		{	putchar(ch); }
-		ch++;
+		{	putchar(ch); }	
 		putchar('\n');
 	}
 	return (0);
