@@ -2,9 +2,9 @@
 
 /**
  *
-   *main - entry point to print task
+   * main - entry point to print task
  *
-     *Return: 0 after printing the function
+     * Return: 0 after printing the function
  *
       */
 
