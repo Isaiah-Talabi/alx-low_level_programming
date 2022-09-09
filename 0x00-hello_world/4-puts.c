@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 /**
- *
-   * main - entry point to print task
- *
+   * main - entry point "Programming is like building a multilingual puzzle"
      * Return: 0 after printing the function
- *
       */
 
 int main(void)
