@@ -9,18 +9,16 @@
 int main(void)
 
 {
-	char ch;
+	char ch = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-
+	while (ch <= 'z')
 	{
-	if ("ch == 'q' \n")
-		continue;
-
-	else if ("ch == 'e' \n")
-			continue;
-	}
+		if (ch != 'e' && ch != 'q')
+		{
 			putchar(ch);
+		}
+	ch++;
+	}
 	putchar('\n');
 
 	return (0);
