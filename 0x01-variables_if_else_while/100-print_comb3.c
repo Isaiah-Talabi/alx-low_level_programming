@@ -20,7 +20,7 @@ int main(void)
 			putchar (number_right);
 
 
-			if ((number_left == 69) && (number_right == 75))
+			if ((number_left == 91) && (number_right == 75))
 			{
 				break;
 			}
