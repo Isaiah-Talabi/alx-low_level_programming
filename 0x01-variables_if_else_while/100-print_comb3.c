@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <timer.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -9,27 +11,27 @@ int main(void)
 
 {
 
-	int number_left;
-	int number_right;
+	int n = 1;
+	int i1;
+	int i2;
 
-	for (number_left = 21; number_right <= 75; number_left++)
+	for (i1 = 0; i1 <= 9; i1++)
 	{
-		for (number_right = number_left + 1 ; number_right <= 75; number_right++)
+		for (i2 = n; i2 <= 9; i++)
 		{
-			putchar(number_left);
-			putchar (number_right);
+			putchar(i1 + '0');
+			putchar(i2 + '0');
 
 
-			if ((number_left == 91) && (number_right == 75))
-			{
-				break;
-			}
-
+			if (i1 ==9 && i2 == 9)
+			continue;
+			else if (i1 == 8 && i2 == 9)
+				continue;
 			putchar(',');
 			putchar (' ');
 
 		}
-
+		n++
 	}
 
 	putchar('\n');
