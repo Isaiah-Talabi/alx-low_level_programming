@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <timer.h>
 #include <stdlib.h>
 
 /**
