@@ -10,27 +10,24 @@ int main(void)
 
 {
 
-	int n = 1;
-	int d1;
-	int d2;
-
-	for (d1 = 0; d1 <= 9; d1++)
+	int n, m;
+	for (n = 48; n <= 56; n++)
 	{
-		for (d2 = n; d2 <= 9; d++)
+		for (m = 49; m <= 57; m++)
 		{
-			putchar(d1 + '0');
-			putchar(d2 + '0');
-
-
-			if (d1 ==9 && d2 == 9)
-			continue;
-			else if (d1 == 8 && d2 == 9)
-				continue;
-			putchar(',');
-			putchar (' ');
+			if (m > n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-		n++
 	}
 	putchar('\n');
-	return 0;
+	return (0);
+
 }
