@@ -11,30 +11,26 @@ int main(void)
 {
 
 	int n = 1;
-	int i1;
-	int i2;
+	int d1;
+	int d2;
 
-	for (i1 = 0; i1 <= 9; i1++)
+	for (d1 = 0; d1 <= 9; d1++)
 	{
-		for (i2 = n; i2 <= 9; i++)
+		for (d2 = n; d2 <= 9; d++)
 		{
-			putchar(i1 + '0');
-			putchar(i2 + '0');
+			putchar(d1 + '0');
+			putchar(d2 + '0');
 
 
-			if (i1 ==9 && i2 == 9)
+			if (d1 ==9 && d2 == 9)
 			continue;
-			else if (i1 == 8 && i2 == 9)
+			else if (d1 == 8 && d2 == 9)
 				continue;
 			putchar(',');
 			putchar (' ');
-
 		}
 		n++
 	}
-
 	putchar('\n');
-
-	return (0);
-
+	return 0;
 }
