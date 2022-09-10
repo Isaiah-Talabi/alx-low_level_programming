@@ -12,7 +12,7 @@ int main(void)
 	int number_left;
 	int number_right;
 
-	for (number_left = 01; number_right <= 89; number_left++)
+	for (number_left = 31; number_right <= 89; number_left++)
 	{
 		for (number_right = number_left + 1 ; number_right <= 89; number_right++)
 		{
@@ -20,7 +20,7 @@ int main(void)
 			putchar (number_right);
 
 
-			if ((number_left == 75) && (number_right == 89))
+			if ((number_left == 57) && (number_right == 89))
 			{
 				break;
 			}
