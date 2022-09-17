@@ -7,7 +7,7 @@
   * Return: Always 0 (Success)
   */
 
-int main(void)
+intmain(void)
 {
 	unsigned int long n = 612852475143, a = (int) sqrt(n);
 
